@@ -1,0 +1,811 @@
+{
+  "version": "1.0",
+  "Project": "MR11-LC0",
+  "Onboard": [
+    {
+      "Address": "E2",
+      "DeviceID": "PCA9548",
+      "DeviceType": "SmbSW",
+      "InitCond": "",
+      "OemDefined": [
+        {
+          "CPLD": 0
+        },		  
+        {
+          "CPU_VR1": 1
+        },		  
+        {
+          "CPU_VR2": 2
+        },		  
+        {
+          "ReDri": 3
+        },	  
+        {
+          "U2A": 4
+        },
+        {
+          "U2B": 5
+        },
+        {
+          "U2C": 6
+        },
+        {
+          "M2": 7
+        }
+      ]
+    },    
+    {
+      "Address": "E6",
+      "DeviceID": "PCA9548",
+      "DeviceType": "SmbSW",
+      "InitCond": "",
+      "OemDefined": [
+        {
+          "Slot1": 0
+        },
+        {
+          "Slot2": 1
+        },
+        {
+          "Slot3": 2
+        },
+        {
+          "Slot4": 3
+        },
+        {
+          "Slot5": 4
+        },
+        {
+          "Slot6": 5
+        },
+        {
+          "Slot7": 6
+        },
+        {
+          "Slot8": 7
+        }
+      ]
+    },
+    {
+      "Address": "EA",
+      "DeviceID": "PCA9548",
+      "DeviceType": "SmbSW",
+      "InitCond": "",
+      "OemDefined": [
+        {
+          "Slot9": 0
+        },
+        {
+          "Slot10": 1
+        },
+        {
+          "Slot11": 2
+        },
+        {
+          "Slot12": 3
+        },
+        {
+          "Slot13": 4
+        },
+        {
+          "Slot14": 5
+        },
+        {
+          "Slot15": 6
+        },
+        {
+          "Slot16": 7
+        }
+      ]
+    },
+    {
+      "Address": "EC",
+      "DeviceID": "PCA9548",
+      "DeviceType": "SmbSW",
+      "InitCond": "",
+      "OemDefined": [
+        {
+          "Slot17": 0
+        },
+        {
+          "Slot18": 1
+        },
+        {
+          "Slot19": 2
+        },
+        {
+          "Slot20": 3
+        },
+        {
+          "Slot21": 4
+        },
+        {
+          "Slot22": 5
+        },
+        {
+          "Slot23": 6
+        },
+        {
+          "Slot24": 7
+        }
+      ]
+    },    
+    {
+      "Address": "60",
+      "DeviceID": "MPS",
+      "DeviceType": "VR",
+      "InitCond": "|E2-1",
+      "Rule":""
+    },
+    {
+      "Address": "64",
+      "DeviceID": "MPS",
+      "DeviceType": "VR",
+      "InitCond": "|E2-1",
+      "Rule":""
+    },	
+    {
+      "Address": "68",
+      "DeviceID": "MPS",
+      "DeviceType": "VR",
+      "InitCond": "|E2-1",
+      "Rule":""
+    },	
+    {
+      "Address": "60",
+      "DeviceID": "MPS",
+      "DeviceType": "VR",
+      "InitCond": "|E2-2",
+      "Rule":""
+    },
+    {
+      "Address": "64",
+      "DeviceID": "MPS",
+      "DeviceType": "VR",
+      "InitCond": "|E2-2",
+      "Rule":""
+    },	
+    {
+      "Address": "68",
+      "DeviceID": "MPS",
+      "DeviceType": "VR",
+      "InitCond": "|E2-2",
+      "Rule":""
+    },	
+    {
+      "Address": "DA",
+      "DeviceID": "Clock",
+      "DeviceType": "CPLD",
+      "InitCond": "|E2-0",
+      "Rule":""
+    },
+    {
+      "Address": "B0",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E2-3",
+      "Rule":""
+    },		
+    {
+      "Address": "B2",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E2-3",
+      "Rule":""
+    },
+    {
+      "Address": "B4",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E2-3",
+      "Rule":""
+    },
+    {
+      "Address": "B6",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E2-3",
+      "Rule":""
+    },	
+    {
+      "Address": "B8",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E2-3",
+      "Rule":""
+    },		
+    {
+      "Address": "BA",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E2-3",
+      "Rule":""
+    },	
+    {
+      "Address": "BC",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E2-3",
+      "Rule":""
+    },	
+    {
+      "Address": "BE",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E2-3",
+      "Rule":""
+    },		
+    {
+      "Address": "C0",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E2-3",
+      "Rule":""
+    },
+    {
+      "Address": "C2",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E2-3",
+      "Rule":""
+    },		
+    {
+      "Address": "C4",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E2-3",
+      "Rule":""
+    },		
+    {
+      "Address": "C6",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E2-3",
+      "Rule":""
+    },	
+    {
+      "Address": "C8",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E2-3",
+      "Rule":""
+    },			
+    {
+      "Address": "CA",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E2-3",
+      "Rule":""
+    },		
+    {
+      "Address": "CC",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E2-3",
+      "Rule":""
+    },
+    {
+      "Address": "CE",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E2-3",
+      "Rule":""
+    }			
+  ],
+  "CNV3124a": [
+    {
+      "Address": "E4",
+      "DeviceID": "PCA9548",
+      "DeviceType": "SmbSW",
+      "InitCond": "|E6-1|E0-0",
+      "OemDefined": [
+        {
+          "Slot1": 0
+        },
+        {
+          "Slot2": 1
+        },
+        {
+          "Slot3": 2
+        },
+        {
+          "Slot4": 3
+        },		
+        {
+          "Slot5": 4
+        },		
+        {
+          "Slot6": 6
+        },
+        {
+          "Slot7": 7
+        }
+      ]
+    },
+    {
+      "Address": "AE",
+      "DeviceID": "FRU",
+      "DeviceType": "FRU",
+      "InitCond": "|E4-2",
+      "Rule":""
+    },	
+    {
+      "Address": "AC",
+      "DeviceID": "FRU",
+      "DeviceType": "FRU",
+      "InitCond": "|E4-2",
+      "Rule":""
+    },			
+    {
+      "Address": "B0",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E4-2",
+      "Rule":""
+    },		
+    {
+      "Address": "B2",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E4-2",
+      "Rule":""
+    },
+    {
+      "Address": "B4",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E4-2",
+      "Rule":""
+    },
+    {
+      "Address": "B6",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E4-2",
+      "Rule":""
+    },	
+    {
+      "Address": "B8",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E4-2",
+      "Rule":""
+    },		
+    {
+      "Address": "BA",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E4-2",
+      "Rule":""
+    },	
+    {
+      "Address": "BC",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E4-2",
+      "Rule":""
+    },	
+    {
+      "Address": "BE",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E4-2",
+      "Rule":""
+    },		
+    {
+      "Address": "C0",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E4-2",
+      "Rule":""
+    },
+    {
+      "Address": "C2",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E4-2",
+      "Rule":""
+    },		
+    {
+      "Address": "C4",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E4-2",
+      "Rule":""
+    },		
+    {
+      "Address": "C6",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E4-2",
+      "Rule":""
+    },	
+    {
+      "Address": "C8",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E4-2",
+      "Rule":""
+    },			
+    {
+      "Address": "CA",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E4-2",
+      "Rule":""
+    },		
+    {
+      "Address": "CC",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E4-2",
+      "Rule":""
+    },
+    {
+      "Address": "CE",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E4-2",
+      "Rule":""
+    }	
+  ],
+  "CNV3124b": [
+    {
+      "Address": "E4",
+      "DeviceID": "PCA9548",
+      "DeviceType": "SmbSW",
+      "InitCond": "|E6-1|E0-1",
+      "OemDefined": [
+        {
+          "Slot1": 0
+        },
+        {
+          "Slot2": 1
+        },
+        {
+          "Slot3": 2
+        },
+        {
+          "Slot4": 3
+        },		
+        {
+          "Slot5": 4
+        },		
+        {
+          "Slot6": 6
+        },
+        {
+          "Slot7": 7
+        }
+      ]
+    },
+    {
+      "Address": "AE",
+      "DeviceID": "FRU",
+      "DeviceType": "FRU",
+      "InitCond": "|E4-2",
+      "Rule":""
+    },	
+    {
+      "Address": "AC",
+      "DeviceID": "FRU",
+      "DeviceType": "FRU",
+      "InitCond": "|E4-2",
+      "Rule":""
+    },			
+    {
+      "Address": "B0",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E4-2",
+      "Rule":""
+    },		
+    {
+      "Address": "B2",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E4-2",
+      "Rule":""
+    },
+    {
+      "Address": "B4",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E4-2",
+      "Rule":""
+    },
+    {
+      "Address": "B6",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E4-2",
+      "Rule":""
+    },	
+    {
+      "Address": "B8",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E4-2",
+      "Rule":""
+    },		
+    {
+      "Address": "BA",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E4-2",
+      "Rule":""
+    },	
+    {
+      "Address": "BC",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E4-2",
+      "Rule":""
+    },	
+    {
+      "Address": "BE",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E4-2",
+      "Rule":""
+    },		
+    {
+      "Address": "C0",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E4-2",
+      "Rule":""
+    },
+    {
+      "Address": "C2",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E4-2",
+      "Rule":""
+    },		
+    {
+      "Address": "C4",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E4-2",
+      "Rule":""
+    },		
+    {
+      "Address": "C6",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E4-2",
+      "Rule":""
+    },	
+    {
+      "Address": "C8",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E4-2",
+      "Rule":""
+    },			
+    {
+      "Address": "CA",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E4-2",
+      "Rule":""
+    },		
+    {
+      "Address": "CC",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E4-2",
+      "Rule":""
+    },
+    {
+      "Address": "CE",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E4-2",
+      "Rule":""
+    }	
+  ],  
+  "Riser": [
+    {
+      "Address": "E8",
+      "DeviceID": "PCA9548",
+      "DeviceType": "SmbSW",
+      "InitCond": "|E6-2",
+      "OemDefined": [
+        {
+          "Slot1": 0
+        },
+        {
+          "Slot2": 1
+        },
+        {
+          "Slot3": 2
+        },
+        {
+          "Slot4": 3
+        },	
+        {
+          "Slot5": 4
+        },
+        {
+          "Slot6": 5
+        },
+        {
+          "Slot7": 6
+        },
+        {
+          "Slot8": 7
+        }
+      ]
+    }  
+  ],
+  "CV-R545": [],
+  "CRS1027": [
+    {
+      "Address": "E0",
+      "DeviceID": "PCA9548",
+      "DeviceType": "SmbSW",
+      "InitCond": "|E6-1",
+      "OemDefined": [
+        {
+          "Slot1": 0
+        },
+        {
+          "Slot2": 1
+        },
+        {
+          "Slot3": 2
+        },
+        {
+          "Slot4": 3
+        },	
+        {
+          "Slot5": 4
+        },
+        {
+          "Slot6": 5
+        },
+        {
+          "Slot7": 6
+        },
+        {
+          "Slot8": 7
+        }
+      ]
+    },
+    {
+      "Address": "DA",
+      "DeviceID": "Test",
+      "DeviceType": "Clock",
+      "InitCond": "|E0-3",
+      "Rule":""
+    },
+    {
+      "Address": "AE",
+      "DeviceID": "FRU",
+      "DeviceType": "FRU",
+      "InitCond": "|E0-2",
+      "Rule":""
+    },	
+    {
+      "Address": "AC",
+      "DeviceID": "FRU",
+      "DeviceType": "FRU",
+      "InitCond": "|E0-2",
+      "Rule":""
+    },			
+    {
+      "Address": "B0",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E0-2",
+      "Rule":""
+    },		
+    {
+      "Address": "B2",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E0-2",
+      "Rule":""
+    },
+    {
+      "Address": "B4",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E0-2",
+      "Rule":""
+    },
+    {
+      "Address": "B6",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E0-2",
+      "Rule":""
+    },	
+    {
+      "Address": "B8",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E0-2",
+      "Rule":""
+    },		
+    {
+      "Address": "BA",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E0-2",
+      "Rule":""
+    },	
+    {
+      "Address": "BC",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E0-2",
+      "Rule":""
+    },	
+    {
+      "Address": "BE",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E0-2",
+      "Rule":""
+    },		
+    {
+      "Address": "C0",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E0-2",
+      "Rule":""
+    },
+    {
+      "Address": "C2",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E0-2",
+      "Rule":""
+    },		
+    {
+      "Address": "C4",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E0-2",
+      "Rule":""
+    },		
+    {
+      "Address": "C6",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E0-2",
+      "Rule":""
+    },	
+    {
+      "Address": "C8",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E0-2",
+      "Rule":""
+    },			
+    {
+      "Address": "CA",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E0-2",
+      "Rule":""
+    },		
+    {
+      "Address": "CC",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E0-2",
+      "Rule":""
+    },
+    {
+      "Address": "CE",
+      "DeviceID": "DS80PCI402",
+      "DeviceType": "Redriver",
+      "InitCond": "|E0-2",
+      "Rule":""
+    }		
+  ]
+}
